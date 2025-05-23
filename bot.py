@@ -9,7 +9,8 @@ load_dotenv()
 # Modelos disponíveis
 models = {
     "llama-3-8b": "meta-llama/llama-3-8b-instruct",
-    "mistral-7b": "mistralai/mistral-7b-instruct"
+    "mistral-7b": "mistralai/mistral-7b-instruct",
+    "openai-3.5": "openai/gpt-3.5-turbo"
 }
 
 # === Configurações via variáveis de ambiente ===
@@ -103,7 +104,7 @@ def main():
     app.run_webhook(
         listen="0.0.0.0",
         port=int(os.environ.get("PORT", 8443)),
-        webhook_url=f"{WEBHOOK_URL}/bot{TELEGRAM_TOKEN}"
+        webhook_url=f"{WEBHOOK_URL}"
     )
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@ Este projeto é um chatbot de Telegram alimentado por modelos de linguagem (LLMs
 
 - `meta-llama/llama-3-8b-instruct`
 - `mistralai/mistral-7b-instruct`
+- `openai/gpt-3.5-turbo`
 
 Você pode alterar o modelo no código, na variável `MODEL`.
 
