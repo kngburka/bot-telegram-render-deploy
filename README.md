@@ -37,5 +37,5 @@ Você pode alterar o modelo no código, na variável `MODEL`.
 1. **Clone o projeto:**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git https://github.com/will-ssilva/bot-telegram-render-deploy.git
 cd seu-repositorio
